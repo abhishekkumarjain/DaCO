@@ -27,13 +27,15 @@ IP.
 
 ## Packet-Switching Router
 
-DaCO uses the Hoplite suite of routers to connect clusters of soft-processors.
-Unfortunately, Hoplite is currently not available on an open-source license. At
-the moment, DaCO would not work as an "out-of-the-box" solution, until you
-provide your own router with the required interface. This might require some
-hacking around with the source code, so if you have any questions/issues, feel
-free to get in touch with the developers. I will try to add a short guide on
-how to integrate your own router.
+DaCO uses the Hoplite[2] suite of routers to connect clusters of
+soft-processors. Unfortunately, Hoplite is currently not available on an
+open-source license. At the moment, DaCO would not work as an "out-of-the-box"
+solution, until you provide your own router with the required interface. This
+might require some hacking around with the source code, so if you have any
+questions/issues, feel free to get in touch with the developers. I will try to
+add a short guide on how to integrate your own router.
+
+[2] http://fpga.org/hoplite/
 
 ## Developers/Authors
 
