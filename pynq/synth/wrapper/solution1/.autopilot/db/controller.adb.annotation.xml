@@ -1,0 +1,7 @@
+<annotationInfo>
+<item  id="29" filename="wrapper/solution1/controller.cpp" linenumber="29" name="tmp_1" contextFuncName="controller" moduleName="controller" rtlName="tmp_1_fu_118_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="8" fileDirectory="/home/sidmontu/Xilinx_Projects/daco_wrapper"></item>
+<item  id="32" filename="wrapper/solution1/controller.cpp" linenumber="31" name="tmp_2" contextFuncName="controller" moduleName="controller" rtlName="tmp_2_fu_124_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="/home/sidmontu/Xilinx_Projects/daco_wrapper"></item>
+<item  id="36" filename="wrapper/solution1/controller.cpp" linenumber="31" name="p_not" contextFuncName="controller" moduleName="controller" rtlName="p_not_fu_132_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="8" fileDirectory="/home/sidmontu/Xilinx_Projects/daco_wrapper"></item>
+<item  id="37" filename="wrapper/solution1/controller.cpp" linenumber="31" name="or_cond" contextFuncName="controller" moduleName="controller" rtlName="or_cond_fu_138_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="8" fileDirectory="/home/sidmontu/Xilinx_Projects/daco_wrapper"></item>
+<item  id="50" filename="wrapper/solution1/controller.cpp" linenumber="41" name="tmp_3" contextFuncName="controller" moduleName="controller" rtlName="tmp_3_fu_150_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="/home/sidmontu/Xilinx_Projects/daco_wrapper"></item>
+</annotationInfo>
