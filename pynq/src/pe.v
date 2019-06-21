@@ -3,7 +3,6 @@
 module pe (
     input wire clk,
     input wire clk_2x,
-    input wire `Config conf_mode,
     input wire packet_in_valid,
     input wire `SPacket packet_in,
     output reg `Packet packet_out,
@@ -12,7 +11,7 @@ module pe (
 
 `ifdef EN_DEBUG
     initial begin
-        $display("INFO:\tPacket_W = %0d,\n\tSPacket_W = %0d,\n\tNodeState_W = %0d,\n\tEdgeState_W = %0d,\n\tPacketHeader_W = %0d.", `PACKET_W,`SPACKET_W,`NODE_STATE_W,`EDGE_STATE_W,`PACKET_HEADER_W);
+        $display("INFO:\tPacket_W = %0d,\n\tConfig_W = %0d,\n\tSPacket_W = %0d,\n\tNodeState_W = %0d,\n\tEdgeState_W = %0d,\n\tPacketHeader_W = %0d.",`PACKET_W,`CONFIG_W,`SPACKET_W,`NODE_STATE_W,`EDGE_STATE_W,`PACKET_HEADER_W);
     end
 `endif
 
@@ -69,7 +68,6 @@ module pe (
             packet_out <= {1'b1,1'b0,32'hdeadbeef};
         end
     end
-
 
 endmodule
 
